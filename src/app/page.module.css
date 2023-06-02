@@ -1,0 +1,46 @@
+.container{
+    display:flex;
+    gap:100px;
+    align-items:center;
+    padding:25px 0;
+}
+
+.item{
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    gap:50px;
+    
+}
+.title{
+    font-size:72px;
+    background:linear-gradient(to bottom, #194c33, #bbb);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+}
+
+.heroImg{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+
+}
+
+.des{
+    font-size:24px;
+    font-weight:300;
+    line-height:1.8;
+    letter-spacing:2px;
+}
+
+.button{
+    width:max-content;
+    padding:20px;
+    border:none;
+    background:#194c33;
+    color:#fff;
+    cursor:pointer;
+    border-radius:5px;
+    
+}
